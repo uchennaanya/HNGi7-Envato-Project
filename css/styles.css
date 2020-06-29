@@ -8,6 +8,12 @@ header h1{
   font-weight: bold;
 }
 
+.testimonial-img {
+  width: 8%;
+  height: 90px;
+  border-radius: 50%;
+}
+
 .active {
   color: #FCC139 !important;
 }
@@ -21,6 +27,10 @@ header h1{
 }
 .recent-project-paddings {
   padding-bottom: 40px;
+}
+.recent-project-filler {
+    padding: 40px 0 0 0;
+    background-color: #F6F6F6;
 }
 .recent-project-paddings img {
   width: 100%;
@@ -46,7 +56,7 @@ header h1{
 }
 .blog-div {
   background: #F6F6F6;
-  padding: 1.5rem;
+  padding: 0 1.5rem 0 1.5rem;
 }
 .blog-div h2 {
   color: #000;
@@ -173,10 +183,9 @@ footer {
   color: #FCC139;
 }
 .first-footer img {
-  height: 20%;
-  width: 20%;
-  margin: 2px .1px;
-  border-radius: 5px;
+  height: 19%;
+  width: 19%;
+  margin: .5px .1px;
 }
 .lft-vector {
   background: #FCC139;
