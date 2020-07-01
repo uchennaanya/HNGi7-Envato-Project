@@ -54,6 +54,12 @@ header h1{
   padding: 15px 0;
   background: #F6F6F6;
 }
+#blog {
+  padding-top: 80px;
+}
+#service {
+  padding-top: 80px;
+}
 .blog-div {
   background: #F6F6F6;
   padding: 0 1.5rem 0 1.5rem;
@@ -85,8 +91,9 @@ header h1{
   padding: 20px;
   border-radius: 4px;
   width: 100%;
+  /* margin: 10px; */
   height: 220px;
-  border: 50px solid #F3F3F3;
+  border: 20px solid #F3F3F3;
   background: #FFFFFF;
 }
 
@@ -108,14 +115,14 @@ header h1{
   background-color: #fff !important;
 }
 #example1 {
-    background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url('../images/hero-image.png') no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/hero-image.png') no-repeat;
   	background-size: cover;
   	background-attachment: fixed !important;
   	background-position: center;
   	margin-top: -5px;
   	box-shadow: 0px 4px 8px rgba(0,0,0,.4);
   	text-align: left;
-    padding: 190px 7.3rem;
+    padding-top: 190px;
   	height: 90vh;
 }
 
@@ -230,13 +237,13 @@ footer {
     font-size: 30px;
 
   }
-	#example1 {
-      background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url(../images/Chrysanthemum.jpg) no-repeat;
+	/* #example1 {
+      background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/hero-image.png) no-repeat;
     	background-size: cover;
     	margin-top: -5px;
   		padding: 250px 5% !important;
 	    height: 100%;
-   }
+   } */
    #example1 h1 {
      font-size: 7vw;
    }
