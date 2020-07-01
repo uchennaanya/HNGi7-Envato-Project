@@ -57,9 +57,7 @@ header h1{
 #blog {
   padding-top: 80px;
 }
-#service {
-  padding-top: 80px;
-}
+
 .blog-div {
   background: #F6F6F6;
   padding: 0 1.5rem 0 1.5rem;
@@ -87,18 +85,25 @@ header h1{
 .cards-body a {
   color: #FCC139;
 }
+#service {
+  padding-top: 80px;
+}
 .services {
   padding: 20px;
   border-radius: 4px;
   width: 100%;
-  /* margin: 10px; */
-  height: 220px;
+  margin-left: 1%;
+  /* margin-top: 20px; */
+  margin-bottom: 50px;
+  box-shadow: 1px 2px 10px 2px rgba(0, 0, 0, 0.9);
+  height: 150px;
   border: 20px solid #F3F3F3;
   background: #FFFFFF;
+  border-radius: 0;
 }
 
 .services p {
-  float: right; top: 30px; position: relative; font-size: 12px; text-align: left;
+  float: right; top: 40px; position: relative; font-size: 12px; text-align: left;
 }
 
 .services div {
