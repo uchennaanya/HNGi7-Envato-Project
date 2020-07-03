@@ -14,7 +14,8 @@ header h1{
   border-radius: 50%;
 }
 
-.active {
+.active,
+ a:focus {
   color: #FCC139 !important;
 }
 
